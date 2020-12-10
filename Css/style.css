@@ -1,0 +1,161 @@
+*{margin: auto; padding: 0; outline: 0;}
+body{
+    font-family: Arial; size: 14px; line-height: 18px; color:#000;}
+.templete{ width: 985; height:auto; margin:0 auto;}
+.clear {overflow: hidden;}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="submit"],
+select,
+textarea { width: 400px;
+     margin: 8px 5;
+     padding: 10px; 
+     border-radius: 5px; 
+     border: 1px solid #333;}
+
+.form-row { margin: 10px 0;}
+
+input[type="submit"] { background-color: rgb(235, 144, 9);}
+textarea {resize: vertical;}
+
+.header-section{height: 90px; 
+    background: rgba(15, 27, 39, 0.857);}
+
+.headersection{ height: 90px; background: black; color:  rgba(101, 211, 73, 0.864);}
+.headersection img{float: left; height: 75px; width: auto; margin: 8px 35px 2px 18px;}
+.headersection h2{font-family: 'satisfy',cursive; font-size: 40px; margin: 35px; text-align: left;}
+.headersection span{ font-weight: bold; color:rgb(235, 144, 9);;}
+.navsection{height: 30px; background:whitesmoke; border: 0px solid black;}
+.navsection ul{margin: 0; padding: 0; list-style: none;}
+.navsection ul li{ display: block; float: left;}
+.navsection ul li a{ 
+    display: block;
+   /* background-color: rgba(85, 149, 179, 0.713); */
+    color: rgb(235, 144, 9);
+    margin: 2px;
+    padding: 3px 20px;
+   /* border: 1px solid black;*/
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navsection{height: 30px; background:whitesmoke;}
+.navsection ul li a:hover{color: rgba(101, 211, 73, 0.864);}
+.contentsection img{box-shadow: 0px 8px 10px -2px; color: rgba(109, 99, 99, 0.796);}
+
+.maincontent{background: white;
+border: 1px solid whitesmoke;
+float: left;
+margin:10px 15px 15px 0;
+padding: 10px;
+width: 655px; 
+
+}
+
+.maincontent h2{
+   /* background: rgba(85, 149, 179, 0.713);*/
+    /*border-bottom: 2px solid rgba(101, 211, 73, 0.864); */
+    padding: 10px;
+    color: rgb(235, 144, 9);
+    margin-bottom: 10px;}
+
+/*.maincontent img{ 
+    float: left;
+    height: 150px; width: auto;
+    margin-right: 10px;
+    background:whitesmoke;
+    border:1px solid black;
+    padding: 5px;}*/
+.maincontent p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 15px;
+    text-align: justify;}
+.sidebar{
+    background: white;
+    border: 1px solid whitesmoke;;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+    width: 270px;
+    margin-bottom: 10px;}
+
+.samesidebar h2{
+    border-bottom: 2px solid rgba(101, 211, 73, 0.864); 
+    padding: 10px;
+    color: rgb(235, 144, 9);
+    margin-bottom: 10px;
+}
+/*.samesidebar img{ 
+    float: inline-start;
+    height: 100px; width: auto;
+    margin-right: 10px;
+    background:whitesmoke;
+    border:1px solid black;
+    padding: 5px;} */
+.samesidebar p{
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px;
+    text-align: justify;}
+.footersection{height: 65px; background: black;}
+.footersection p{ color: rgb(235, 144, 9); 
+    float: left;
+    text-align: center;
+     margin-top: 25px;
+    font-size: 18px;
+    margin-left: 40px;} 
+
+.Social{width: 165px; float: right;}
+.Social img{width: 30px; margin: 17px 11px 17px 0px;}
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: whitesmoke;}
+    
+.dropdown-btn:hover .dropdown-content {display: block;}
+    
+
+
+
+/* Responsive  Small desktop */
+@media screen and (max-width: 960px) {
+.templete{ width: 700px;} 
+.contentsection img{ display:800px 500px;}
+.maincontent{  width: 450px;}  
+.sidebar{  width: 190px;}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 340px; margin: 8px 60px;}
+
+}
+
+/* Responsive Tablet */
+@media screen and (max-width:768px) {
+.templete{ width: 500px;}
+.contentsection img{ display:none;}
+.maincontent{  width: 480px;}
+.sidebar{  width: 480px;}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 440px;margin: 8px 20px;}
+}
+
+
+/*Responsive for  Mobile */
+@media screen and (max-width:300px){
+.templete{ width:200px;}
+.contentsection img{ display:none;}
+.navsection ul li a{display: unset; padding: 3px 4px; font-size: 10px;}
+.maincontent{  width: 180px; margin: 8px 8px 8px 0px;}
+.maincontent p {font-size: 12px;}
+.sidebar{  width: 180px; margin-bottom: 8px; margin-top: 8px;}
+.samesidebar h2 {font-size:18px; text-align: center;}
+.samesidebar p { padding-bottom: 5px;font-size: 10px;line-height: 12px;margin: 5px;}
+.headersection img {height: 70px; margin: 13px 3px 5px 5px;}
+.headersection h2 { font-size: 19px;}
+.maincontent h2{font-size:18px; text-align: center;}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 180px;margin: 5px 0px;}
+}

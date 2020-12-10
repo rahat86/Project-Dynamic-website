@@ -1,0 +1,101 @@
+*{margin: auto; padding: 0; outline: 0;}
+body{
+    font-family: Arial; size: 14px; line-height: 18px; color:#000;}
+.templete{ width: 985; height:auto; margin:0 auto;}
+.clear {overflow: hidden;}
+
+.headersection, .contentsection, .footersection{
+    display: grid;}
+
+.headersection img {
+        float: left;
+        height: 75px;
+        width: auto;
+        margin: 0px 0px 0px -476px;
+    }
+
+.headersection h2 {
+        font-family: 'satisfy',cursive;
+        font-size: 40px;
+        margin: -49px 0px -18px 115px;
+        text-align: left;
+    }
+
+.maincontent { margin: 15px 15px 0px 0px;}
+
+.subcontent
+ {
+	border: 1px solid #333;
+    width: 600px;
+    height: auto;
+    display: grid;
+   
+
+}
+
+.subcontent section{
+    margin: 10px;
+    border: 1px solid black;
+    display: grid;
+    width: 100px; height: 200px;
+    
+    grid-area:
+        'subcontent-1'
+        'subcontent-2'
+        'subcontent-3'
+        'subcontent-4'
+        'subcontent-5'
+        'subcontent-7'
+        'subcontent-8'
+        'subcontent-9'
+        'subcontent-10';
+}
+
+.subcontent section img{ width: 275px; height: 200px;}
+.sidebar{ grid-area:sidebar ; margin: -1182px 15px 0px 0px;}
+
+.footersection p {
+    margin-left: -48px;}
+
+
+
+
+    /*Flex*/
+
+
+.subcontent {display: flex;
+    
+    flex-flow: row wrap;
+}
+
+.subcontent section {
+	margin: 10px;
+    flex: 1 1 240px; /* flex-grow | flex-shrink | flex-basis*/
+}
+
+/* Responsive  Small desktop */
+@media screen and (max-width: 960px) {
+.templete{ width: 700px;} 
+.subcontent {width: 445px;}
+.subcontent section img {width: 423px;}
+.sidebar {margin: -2292px 15px 0px 0px;}
+.headersection img {margin: 0px 0px 0px -328px;}
+    }
+
+    
+    /* Responsive Tablet */
+    @media screen and (max-width:768px) {
+    .templete{ width: 500px;}
+.headersection img { margin: 0px 0px 0px -227px; }
+
+    
+    
+    /*Responsive for  Mobile */
+    @media screen and (max-width:300px){
+    .templete{ width:200px;}
+    .headersection h2 { font-size: 16px; margin: 0px 0px 10px 60px;}
+    .headersection img {height: 50px; margin: -5px 0px -27px -88px;}
+    .subcontent { width: 170px;}
+    .footersection p { font-size: 13px;}
+   
+    }

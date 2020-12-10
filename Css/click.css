@@ -1,0 +1,34 @@
+/* *{margin: 40px 0px 0px -17px; padding: 0; box-sizing: border-box;}*/
+
+.maincontent {height: 600px;
+    width: 963px;}
+
+
+.section{ position: absolute; 
+    border: 1px solid black;
+width: 60%;
+height: 40vh;
+margin-left:280px;
+overflow: hidden;
+margin: 300px 0px 0px 80px; padding: 0; box-sizing: border-box;}
+
+.section .slide {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;}
+
+.section .slide.slider1{
+        background: url(../Image/clk/clk1.jpg);
+       /* background-attachment: fixed;*/
+        background-position: center;
+    
+    }
+        
+
+.section .slide.slider2{
+            background: url(../Image/clk/clk2.jpg);
+          /*  background-attachment: fixed;*/
+            background-position: center;
+            left: 50%;}

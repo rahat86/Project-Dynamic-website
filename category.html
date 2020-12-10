@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+<link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/click.css">
+
+
+</head>
+<body> <div class="headersection templete clear">
+    <a href="index.html"><img src="image/logo1.png" alt="logo"></a>
+    <h2><span>A</span>rt  <span>G</span>alleria</h2>
+</div>
+
+<div class="navsection templete clear">
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown-btn">
+            <a href="">Manu</a>
+            <ul class="dropdown-content">
+                <li><a href="category.html">Service</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                
+            </ul>
+            <li><a href="contact.html">Contact Us</a></li>
+        </li>
+    </ul>
+</div>
+<div class="contentsection templete clear ">
+    <div class="maincontent clear">
+        <h2>Welcome to Art Galleria's service category!</h2>
+        <section class="section">
+            <div class="slide slider1"></div>
+            <div class="slide slider2" id= "slide"></div>
+        </section>
+       
+    <script type="text/javascript">
+    var slide = document.getElementById('slide');
+    window.onmousemove = function(e){
+        var x = e.clientX;
+        slide.style.left = x+ 'px';
+    }
+    
+    </script>
+
+    <p>Art Galleria works both of private and Corporate event categories. Art Galleria is going to add more packages in both of the categories.
+        We are offering you a good price for your business event. It can be private or it can be a big corporate event. 
+    <br>
+    <br> 1. Private event full package price 20000 sek
+    <br>
+        2. Corporate evant full packageprice 50000 sek
+        <br>
+        <br>
+
+    All package include with this services
+    <br>
+    <br>
+        1. Background stage,
+        <br>
+        2. Hall decoration,
+        <br>
+        3.Enterance
+        <br>
+        4. Catering.
+        <br>
+        5. Entertainments support
+        <br>
+
+    </p>
+    </div>
+
+  
+</div>
+   
+
+
+<div class="footersection templete clear">
+    <div>
+        <p>&COPY; Copyright Art Galleria</p>
+    </div>
+    <div class="Social">
+       
+      <a href="https://www.instagram.com/" target="_blank"><img src="Image/Social/ins.png" alt="instagram"></a>  
+      <a href="https://www.facebook.com/Art-Galleria-174473209380746/" target="_blank"><img src="Image/Social/fb.png" alt="Facebook"></a>  
+      <a href="https://www.linkedin.com/" target="_blank"><img src="Image/Social/lnk.png" alt="LinkedIn"></a>  
+
+    </div>
+   
+    
+</body>
+</html>

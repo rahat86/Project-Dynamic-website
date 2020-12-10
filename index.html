@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <div class="headersection templete clear">
+        <a href="index.html"><img src="image/logo1.png" alt="logo"></a>
+        <h2><span>A</span>rt  <span>G</span>alleria</h2>
+   </div>
+
+    <div class="navsection templete clear">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown-btn">
+                <a href="">Manu</a>
+                <ul class="dropdown-content">
+                    <li><a href="category.html">Service</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    
+                </ul>
+                <li><a href="contact.html">Contact Us</a></li>
+            </li>
+        </ul>
+    </div>
+  <div class="contentsection templete clear ">
+
+      <script>
+    var i = 0;
+    var im = [];
+    var time = 5000;
+    
+    im [0] = 'image/slide/img1.jpg';
+    im [1] = 'image/slide/img2.jpg';
+    im [2] = 'image/slide/img3.jpg';
+    im [3] = 'image/slide/img4.jpg';
+    im [4] = 'image/slide/img5.jpg';
+    
+    function changeImg (){
+        document.slide.src = im [i];
+
+     //Condition   
+        if (i < im.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+       setTimeout("changeImg()", time);
+       
+    }
+    window.onload = changeImg;
+</script>
+
+      <img name="slide"  width="986" height="500"> 
+      
+
+      <div class="maincontent clear">
+          <h2>Welcome to Art Galleria!</h2>
+        
+          <p>Art Galleria is a fantastic event planner who has understood the client's mind either it's a private or an corporate bussiness event. 
+            Our team of architects and designers create their plans to make the atmosphere and environment where clients' events 
+            will be more realistic and entertainable with our high-tech advanced technology mix with craftsmanship.
+            <br>
+            <br>
+            Art Galleria committed to our responsive clients to provide innovative design and services which make you comfortable and happy.
+            </p>
+      </div>
+     <div class="sidebar clear">
+         <div class= "samesidebar clear">
+             <h2>New Year Offer</h2>
+            
+             <p>
+                Soon this year is going to finish. Start a new year with us. We will make your new year event more colorful. 
+                Art Galleria is offering half off price for all event categories. 
+                See the price in the service section.
+                 <br>
+                We care your dream
+                
+                <br> 
+                <br>
+                --Art Galleria--</p>
+          </div>
+          
+        </div>
+      
+     </div>
+  
+      
+   
+<div class="footersection templete clear">
+    <div>
+        <p>&COPY; Copyright Art Galleria</p>
+    </div>
+    <div class="Social">
+       
+      <a href="https://www.instagram.com/" target="_blank"><img src="Image/Social/ins.png" alt="instagram"></a>  
+      <a href="https://www.facebook.com/Art-Galleria-174473209380746/" target="_blank"><img src="Image/Social/fb.png" alt="Facebook"></a>  
+      <a href="https://www.linkedin.com/" target="_blank"><img src="Image/Social/lnk.png" alt="LinkedIn"></a>  
+
+    </div>
+    
+</div>
+    
+</body>
+</html>

@@ -157,5 +157,6 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 .headersection img {height: 70px; margin: 13px 3px 5px 5px;}
 .headersection h2 { font-size: 19px;}
 .maincontent h2{font-size:18px; text-align: center;}
+.footersection p { margin-top: 30px; font-size: 16px; margin-left: 18px;}
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 180px;margin: 5px 0px;}
 }

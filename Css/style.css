@@ -44,7 +44,8 @@ textarea {resize: vertical;}
 }
 .navsection{height: 30px; background:whitesmoke;}
 .navsection ul li a:hover{color: rgba(101, 211, 73, 0.864);}
-.contentsection img{box-shadow: 0px 8px 10px -2px; color: rgba(109, 99, 99, 0.796);}
+.contentsection img{box-shadow: 0px 8px 10px -2px; color: rgba(109, 99, 99, 0.796); width: 986px; height: 470px;}
+
 
 .maincontent{background: white;
 border: 1px solid whitesmoke;
@@ -127,7 +128,7 @@ width: 655px;
 /* Responsive  Small desktop */
 @media screen and (max-width: 960px) {
 .templete{ width: 700px;} 
-.contentsection img{ display:800px 500px;}
+.contentsection img{width:700px; height:360px;}
 .maincontent{  width: 450px;}  
 .sidebar{  width: 190px;}
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 340px; margin: 8px 60px;}
@@ -137,7 +138,10 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 /* Responsive Tablet */
 @media screen and (max-width:768px) {
 .templete{ width: 500px;}
-.contentsection img{ display:none;}
+.contentsection img { background: url(../Image/clk/clk1.jpg);
+    
+    
+    width: 500px; height: 285px;}
 .maincontent{  width: 480px;}
 .sidebar{  width: 480px;}
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="submit"], select, textarea {width: 440px;margin: 8px 20px;}
